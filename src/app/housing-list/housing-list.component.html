@@ -1,2 +1,3 @@
 <label for="location-search">Search for a new place</label>
 <input id="location-search" #search><button (click)="searchHousingLocations(search.value)">Search</button>
+<article *ngFor="let location of locationList"></article>
