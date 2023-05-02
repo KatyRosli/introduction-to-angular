@@ -26,19 +26,19 @@ describe('AppComponent', () => {
     const app = fixture.componentInstance;
     expect(app.title).toEqual('fairhouse');
   });
-  it(`should display the Fairhouse logo`, () => {
+  it('should display the Fairhouse logo', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('header img').src).toContain('/assets/logo.svg');
   });
-  it(`should display a list of housing locations`, () => {
+  it('should display a list of housing locations', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('app-housing-list')).toBeTruthy();
   });
-  it(`should update the selected location when a location is selected from the list`, () => {
+  it('should update the selected location when a location is selected from the list', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const app = fixture.componentInstance;
@@ -54,7 +54,7 @@ describe('AppComponent', () => {
     app.updateSelectedLocation(selectedLocation);
     expect(app.selectedLocation).toEqual(selectedLocation);
   });
-/*   it(`should display the selected location information when a location is selected from the list`, () => {
+/*   it('should display the selected location information when a location is selected from the list', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const app = fixture.componentInstance;
