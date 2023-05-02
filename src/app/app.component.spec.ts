@@ -54,7 +54,7 @@ describe('AppComponent', () => {
     app.updateSelectedLocation(selectedLocation);
     expect(app.selectedLocation).toEqual(selectedLocation);
   });
-/*   it('should display the selected location information when a location is selected from the list', () => {
+   it('should display the selected location information when a location is selected from the list', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const app = fixture.componentInstance;
@@ -80,5 +80,5 @@ describe('AppComponent', () => {
     } else {
     fail('Article element not found');
     }
-  }); */
+  });
 });
