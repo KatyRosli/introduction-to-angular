@@ -1,4 +1,4 @@
-input, button {
+input , button {
     border: solid 1px #555B6E;
     border-radius: 2px;
     display: inline-block;
@@ -20,6 +20,7 @@ button {
     border: solid 1px #4468e8;
     border-radius: 0 2px 2px 0;
 }
+
 article {
     margin: 40px 0 10px 0;
     color: #202845;
@@ -32,6 +33,7 @@ article> p:first-of-type {
     font-weight: bold;
     font-size: 22pt;
 }
+
 img {
     width: 490px;
     border-radius: 5pt;
